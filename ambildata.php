@@ -34,7 +34,7 @@
     $port     = 1883;
     $username = "";
     $password = "";
-    $topic = "iot/suhu";
+    $topic = "iot/G_241_21_0005";
 
 
     $mqtt = new bluerhinos\phpMQTT($host, $port, "G.241.21.0005-".rand());
